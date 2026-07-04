@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0F0F0F;
+  --color-gold: #fff300;
+  --color-gold-hover: #ffe600;
+  --color-bg-salon: #FAF9F6;
+  --color-card-salon: #1A1A1A;
+  --color-text-secondary: #BDBDBD;
+
+  --font-serif: 'Montserrat', sans-serif;
+  --font-sans: 'Montserrat', sans-serif;
+}
+
+/* Custom Base Layer Modifications */
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--color-bg-salon);
+    color: var(--color-primary);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom Utilities for Luxury Effects */
+@layer utilities {
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #fff300 0%, #ffffcc 50%, #fff300 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-gold-gradient {
+    border-image: linear-gradient(to right, #fff300, #ffffcc, #fff300) 1;
+  }
+
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #fff300 0%, #fffa99 50%, #fff300 100%);
+  }
+
+  .bg-dark-gradient {
+    background: linear-gradient(180deg, #1A1A1A 0%, #0F0F0F 100%);
+  }
+
+  .glassmorphism-dark {
+    background: rgba(26, 26, 26, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 243, 0, 0.15);
+  }
+
+  .glassmorphism-light {
+    background: rgba(248, 246, 243, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 243, 0, 0.1);
+  }
+}
+
+/* Custom Webkit scrollbar for premium theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff300;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffe600;
+}
+
+/* Hide scrollbar helper */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
