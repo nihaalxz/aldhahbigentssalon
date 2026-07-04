@@ -147,12 +147,6 @@
 
           <div class="flex items-start gap-4">
             <div class="text-gold mt-1"><Heart size={18} /></div>
-            <div>
-              <h4 class="text-base font-bold text-primary mb-1">Complimentary Hospitality</h4>
-              <p class="text-primary/75 text-xs font-light leading-relaxed">
-                Enjoy single-origin espresso, Moroccan mint tea, or chilled water from our bar while your Master Barber creates your signature look.
-              </p>
-            </div>
           </div>
 
         </div>
