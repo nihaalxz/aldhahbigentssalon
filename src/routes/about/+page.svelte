@@ -55,7 +55,7 @@
 <!-- Mission, Vision & Values -->
 <section class="py-20 bg-[#0F0F0F] text-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <SectionHeading title="The Principles of Our Sanctuary" subtitle="Philosophy" align="center" light={true} />
+    <SectionHeading title="The Principles" subtitle="Philosophy" align="center" light={true} />
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       
