@@ -1,7 +1,7 @@
 <script lang="ts">
   import SectionHeading from '$lib/components/SectionHeading.svelte';
   import Button from '$lib/components/Button.svelte';
-  import { ShieldCheck, Award, Heart, Sparkles } from '@lucide/svelte';
+  import { ShieldCheck, Award, Sparkles } from '@lucide/svelte';
 </script>
 
 <!-- Subpage Hero Header -->
@@ -145,9 +145,6 @@
             </div>
           </div>
 
-          <div class="flex items-start gap-4">
-            <div class="text-gold mt-1"><Heart size={18} /></div>
-          </div>
 
         </div>
 
