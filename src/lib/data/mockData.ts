@@ -92,13 +92,13 @@ export const gallery: GalleryItem[] = [
     id: 'g3',
     title: '24K Gold Facial Treatment',
     category: 'treatment',
-    image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800'
+    image: '/salon_interior_3.jpg'
   },
   {
     id: 'g4',
     title: 'Slick Back Pompadour Styling',
     category: 'styling',
-    image: 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800'
+    image: '/salon_interior_4.jpg'
   },
   {
     id: 'g5',
@@ -209,7 +209,7 @@ export const testimonials: Testimonial[] = [
     id: 't1',
     name: 'Alexander Rostova',
     rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200',
+    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200',
     review: 'The absolute finest grooming experience in Dubai. From the warm greetings at reception to Karim\'s unmatched skill with straight razor styling, every detail is absolute luxury.',
     date: '2 days ago'
   },

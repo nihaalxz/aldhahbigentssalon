@@ -105,15 +105,15 @@
       <div class="grid grid-cols-2 gap-4">
         <div class="aspect-[3/4] overflow-hidden border border-gold/15 shadow-xl">
           <img
-            src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800"
-            alt="Haircut Styling"
+            src="/salon_interior_3.jpg"
+            alt="Al Dhahabi Salon Interior"
             class="w-full h-full object-cover"
           />
         </div>
         <div class="aspect-[3/4] overflow-hidden border border-gold/15 shadow-xl mt-6">
           <img
-            src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800"
-            alt="Facial Mask"
+            src="/salon_interior_4.jpg"
+            alt="Al Dhahabi Salon Atmosphere"
             class="w-full h-full object-cover"
           />
         </div>

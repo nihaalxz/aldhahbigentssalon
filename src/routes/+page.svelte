@@ -56,13 +56,13 @@
     <img
       src="/salon_interior_1.jpg"
       alt="Al Dhahabi Salon Background"
-      class="hidden sm:block w-full h-full object-cover scale-105 opacity-70"
+      class="hidden sm:block w-full h-full object-cover scale-105 opacity-95"
     />
     <!-- Mobile Image -->
     <img
       src="/salon_interior_2.jpg"
       alt="Al Dhahabi Salon Background Mobile"
-      class="block sm:hidden w-full h-full object-cover scale-105 opacity-70"
+      class="block sm:hidden w-full h-full object-cover scale-105 opacity-95"
     />
   </div>
 
