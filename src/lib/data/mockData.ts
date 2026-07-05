@@ -100,12 +100,7 @@ export const gallery: GalleryItem[] = [
     category: 'styling',
     image: '/salon_interior_4.jpg'
   },
-  {
-    id: 'g5',
-    title: 'Classic Beard Sculpting',
-    category: 'shave',
-    image: 'https://images.unsplash.com/photo-1605497746444-ac9dbd39f4a5?auto=format&fit=crop&q=80&w=800'
-  },
+
   {
     id: 'g6',
     title: 'Low Skin Taper Fade',
@@ -118,12 +113,6 @@ export const gallery: GalleryItem[] = [
     category: 'styling',
     image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=800'
   },
-  {
-    id: 'g8',
-    title: 'Deep Pore Charcoal Mask',
-    category: 'treatment',
-    image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=800'
-  }
 ];
 
 export const barbers: Barber[] = [
