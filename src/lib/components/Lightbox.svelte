@@ -64,7 +64,7 @@
     <!-- Header -->
     <div class="w-full flex justify-between items-center z-50">
       <span class="text-white/40 text-xs tracking-widest font-semibold uppercase">
-        {activeIndex + 1} / {images.length} &bull; {images[activeIndex].category}
+        {activeIndex + 1} / {images.length}
       </span>
       <div class="flex items-center gap-3">
         <button
@@ -115,13 +115,6 @@
       >
         <ChevronRight size={20} />
       </button>
-    </div>
-
-    <!-- Caption -->
-    <div class="text-center z-50 max-w-xl pb-2">
-      <h3 class="text-white text-base font-serif font-bold tracking-wide">
-        {images[activeIndex].title}
-      </h3>
     </div>
   </div>
 {/if}

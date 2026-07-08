@@ -226,4 +226,4 @@
 
 
 <!-- Lightbox Modal -->
-<Lightbox images={gallery} bind:activeId={activeGalleryId} onclose={() => activeGalleryId = null} />
+<Lightbox images={galleryItems} bind:activeId={activeGalleryId} onclose={() => activeGalleryId = null} />

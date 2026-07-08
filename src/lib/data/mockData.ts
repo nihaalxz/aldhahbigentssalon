@@ -98,21 +98,8 @@ export const gallery: GalleryItem[] = [
     id: 'g4',
     title: 'Slick Back Pompadour Styling',
     category: 'styling',
-    image: '/salon_interior_4.jpg'
-  },
-
-  {
-    id: 'g6',
-    title: 'Low Skin Taper Fade',
-    category: 'haircut',
-    image: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=800'
-  },
-  {
-    id: 'g7',
-    title: 'Precision Line Up & Hair Art',
-    category: 'styling',
-    image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=800'
-  },
+    image: '/Salon_exterior.JPG.jpeg'
+  }
 ];
 
 export const barbers: Barber[] = [
