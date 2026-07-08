@@ -80,13 +80,13 @@ export const gallery: GalleryItem[] = [
     id: 'g1',
     title: 'Textured Crop Fade',
     category: 'haircut',
-    image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=800'
+    image: '/salon_interior_1.jpg'
   },
   {
     id: 'g2',
     title: 'Royal Straight Razor Lining',
     category: 'shave',
-    image: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=800'
+    image: '/salon_interior_2.jpg'
   },
   {
     id: 'g3',

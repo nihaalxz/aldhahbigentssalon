@@ -51,18 +51,18 @@
 <section class="relative min-h-[90vh] md:min-h-screen bg-primary flex items-center justify-center overflow-hidden -mt-20 lg:-mt-24">
   <!-- Dark overlay background with zoom-reveal effect -->
   <div class="absolute inset-0 z-0">
-    <div class="absolute inset-0 bg-[#0F0F0F]/80 z-10"></div>
+    <div class="absolute inset-0 bg-[#0F0F0F]/50 z-10"></div>
     <!-- Desktop Image -->
     <img
       src="/salon_interior_1.jpg"
       alt="Al Dhahabi Salon Background"
-      class="hidden sm:block w-full h-full object-cover scale-105 opacity-95"
+      class="hidden sm:block w-full h-full object-cover scale-105 opacity-100"
     />
     <!-- Mobile Image -->
     <img
       src="/salon_interior_2.jpg"
       alt="Al Dhahabi Salon Background Mobile"
-      class="block sm:hidden w-full h-full object-cover scale-105 opacity-95"
+      class="block sm:hidden w-full h-full object-cover scale-105 opacity-100"
     />
   </div>
 
@@ -95,14 +95,14 @@
       <div class="relative grid grid-cols-2 gap-4">
         <div class="aspect-[4/5] overflow-hidden border border-gold/15 shadow-2xl">
           <img
-            src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=800"
+            src="/salon_interior_1.jpg"
             alt="Royal Haircut Process"
             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
           />
         </div>
         <div class="aspect-[4/5] overflow-hidden border border-gold/15 shadow-2xl mt-8">
           <img
-            src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=800"
+            src="/salon_interior_2.jpg"
             alt="Straight Razor Lathering"
             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
           />
