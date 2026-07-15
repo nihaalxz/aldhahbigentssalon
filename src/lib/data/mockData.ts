@@ -279,13 +279,13 @@ export const blogs: BlogPost[] = [
 ];
 
 export const openingHours: OpeningHour[] = [
-  { day: 'Monday', hours: '08:00 AM - 12:00 AM' },
-  { day: 'Tuesday', hours: '08:00 AM - 12:00 AM' },
-  { day: 'Wednesday', hours: '08:00 AM - 12:00 AM' },
-  { day: 'Thursday', hours: '08:00 AM - 12:00 AM' },
-  { day: 'Friday', hours: '08:00 AM - 12:00 PM, 02:00 PM - 12:00 AM' },
-  { day: 'Saturday', hours: '08:00 AM - 12:00 AM' },
-  { day: 'Sunday', hours: '08:00 AM - 12:00 AM' }
+  { day: 'Monday', hours: '07:30 AM - 12:00 AM' },
+  { day: 'Tuesday', hours: '07:30 AM - 12:00 AM' },
+  { day: 'Wednesday', hours: '07:30 AM - 12:00 AM' },
+  { day: 'Thursday', hours: '07:30 AM - 12:00 AM' },
+  { day: 'Friday', hours: '07:30 AM - 12:00 PM, 02:00 PM - 12:00 AM' },
+  { day: 'Saturday', hours: '07:30 AM - 12:00 AM' },
+  { day: 'Sunday', hours: '07:30 AM - 12:00 AM' }
 ];
 
 export const statistics: Statistic[] = [

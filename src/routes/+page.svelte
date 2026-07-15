@@ -68,14 +68,14 @@
 
   <!-- Hero Content -->
   <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white flex flex-col items-center pt-20">
-    <span class="text-xs md:text-sm text-gold font-bold tracking-[0.2em] uppercase mb-4 animate-[fadeIn_1.2s_ease-out]">
-      NEAR NASEX COURIER, AL QUSAIS 2, DUBAI
-    </span>
-    
-    <h1 class="text-4xl sm:text-6xl md:text-8xl font-bold font-serif tracking-wide leading-tight mb-6 max-w-5xl animate-[fadeIn_1.5s_ease-out]">
+    <h1 class="text-4xl sm:text-6xl md:text-8xl font-bold font-serif tracking-wide leading-tight mb-4 max-w-5xl animate-[fadeIn_1.5s_ease-out]">
       DUBAI'S <br class="hidden sm:inline" />
       <span class="text-gold-gradient font-serif">FAVORITE</span> SALON
     </h1>
+
+    <span class="text-xs md:text-sm text-gold font-bold tracking-[0.2em] uppercase mb-8 animate-[fadeIn_1.7s_ease-out]">
+      AL QUSAIS 2, DUBAI
+    </span>
 
     <p class="text-text-secondary text-sm sm:text-base md:text-lg max-w-2xl font-light tracking-wide mb-10 leading-relaxed animate-[fadeIn_1.8s_ease-out]">
       Dubai's premier destination for the discerning gentleman. Experience bespoke haircuts, traditional straight razor shaves, and advanced facial therapies.
